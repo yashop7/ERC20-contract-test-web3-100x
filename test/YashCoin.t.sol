@@ -64,3 +64,9 @@ contract TestContract is Test {
         c.transferFrom(address(this),0x617F2E2fD72FD9D5503197092aC168c91465E7f2, 400);
     }
 }
+
+// # NOTES ADDED LATER
+
+// Alloting someone Custom Tokens
+//         uint value = 10 ether;
+//         vm.deal(0x587EFaEe4f308aB2795ca35A27Dff8c1dfAF9e3f, value);
