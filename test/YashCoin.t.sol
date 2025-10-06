@@ -70,3 +70,10 @@ contract TestContract is Test {
 // Alloting someone Custom Tokens
 //         uint value = 10 ether;
 //         vm.deal(0x587EFaEe4f308aB2795ca35A27Dff8c1dfAF9e3f, value);
+
+// In this case Fail in name was not working, Keep Note, you have to specify the error string
+// function testStakeFail() public {
+//         uint value = 1 ether;
+//         vm.expectRevert("Amount must be equal to msg.value");
+//         c.stake{value : value}(value * 2);
+//     }
